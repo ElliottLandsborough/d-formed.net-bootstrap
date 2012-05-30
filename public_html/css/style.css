@@ -1,0 +1,75 @@
+/*body {background-color:#161616;}*/
+.light-green {color:#75d63b;}
+.dark-green {color:#58a128;}
+.turquoise {color:#238149;}
+.blue { color:#23827a;}
+body {color:#ffffff;font-family: sans-serif;}
+a {color:#ffffff;}
+a:hover {text-decoration:underline;color:inherit;}
+
+/* HEADER */
+header {background-color:#161616;height:160px;overflow:hidden;margin-bottom:20px;}
+header div.span7 {position:relative;}
+header div.logo p a span {display:none;}
+header div.logo p a {display:block;background-image:url('../img/logo.png');width:430px;height:160px;position:relative;left:25px;}
+
+/* contact info */
+div.contact-info {position:absolute;top:15px;left:399px;width:237px;height:60px;}
+div.contact-info p {margin:0px; padding:0px;font-size:12px;}
+p.social a {display:block;background-position:center center;background-repeat:no-repeat;height:35px;}
+p.social a.facebook {background-image:url('../img/fb-big.png');width:36px;position:absolute;top:0px;left:160px;}
+p.social a.twitter {background-image:url('../img/tw-big.png');width:34px;position:absolute;top:0px;left:203px;}
+
+/* header menu */
+header ul {position:absolute;top:109px;left:70px;}
+header ul li {list-style-type:none;float:left;height:11px;}
+header ul li a {display:block;padding:10px 15px 0px 15px; height:41px;background-repeat:no-repeat;background-position:center center;}
+header ul li.home a {background-image:url('../img/home.png');width:44px;}
+header ul li.about a {background-image:url('../img/about.png');width:53px;}
+header ul li.services a {background-image:url('../img/services.png');width:77px;}
+header ul li.projects a {background-image:url('../img/projects.png');width:80px;}
+header ul li.news a {background-image:url('../img/news.png');width:44px;}
+header ul li.contact a {background-image:url('../img/contact.png');width:72px;}
+header ul li.home a:hover {background-color:#238179;}
+header ul li.about a:hover,header ul li.contact a:hover {background-color:#238149;}
+header ul li.services a:hover,header ul li.news a:hover {background-color:#58a128;}
+header ul li.projects a:hover {background-color:#75d63b;}
+
+/* HOME */
+div.container.home {background-color:#161616;}
+
+iframe {border:0px;}
+iframe {width:705px;height:480px;}
+
+/* Large desktop */
+@media only screen and (max-width: 1200px) {
+	iframe {width:620px;height:423px;}
+	div.contact-info {left:298px;}
+	header ul {top:128px;left:60px;}
+	header ul li a {padding:2px 7px 0px 7px;height:31px;}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (max-width: 979px) {
+	header div.logo p a {background-image:url('../img/logosmall.png');width:215px;height:80px;}
+	iframe {width:470px;height:320px;}
+	div.contact-info {left:168px;}
+	header ul {top:14px;left:0px;height:200px;width:220px;}
+	header ul li {float:none;margin:8px;}
+	header ul li a {padding:2px;height:15px;margin:2px;}
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (max-width: 767px) {
+	iframe {width:450px;height:307px;}
+	div.contact-info {position:relative;left:30px;}
+	header {height:auto;}
+	header ul {position:relative;height:140px;left:0px;}
+	header ul li {margin-left:0px;}
+}
+
+/* Landscape phones and down */
+@media only screen and (max-width: 480px) {
+	header div.logo p a {background-image:url('../img/logosmall.png');width:215px;height:80px;}
+	iframe {width:300px;height:205px;}
+}

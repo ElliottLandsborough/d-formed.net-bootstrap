@@ -1,39 +1,40 @@
-<div class="row">
-    <div class="span4">
-        <h1 class="hidden">Home</h1>
-        <h1 class="greeting">
-        <?php
-        $time = date("G");
-        if ($time < 12) {
-        echo 'Good morning!';
-        }
-        elseif ($time > 12) {
-        echo 'Good afternoon!';
-        }
-        elseif ($time > 17) {
-        echo 'Good evening!';
-        }
-        ?>
-        </h1>
-        <p>At D-formed, we believe in the power of creative communication.</p>
-        <p>We are a small team with skills across all forms of digital media, so your website will be based on great design, efficient code, and expert knowledge. And you will always know who you’re dealing with. (Mainly it will be our project manager, Greg.)</p> 
-        <p>Whether you are an established business looking for an effective online presence, or you’re just setting up on your own, we can produce beautiful, efficient media and strategies to help you reach your audience, create customers and make it happen.</p>
-        <p>So give us a <a href="/contact">call</a>.</p>
-    </div>
+<div class="container home">
+    <div class="row-fluid">
+        <div class="span4">
+            <h1 class="hidden">Home</h1>
+            <h1>
+            <?php
+            $time = date("G");
+            if ($time < 12) {
+            echo 'Good morning!';
+            }
+            elseif ($time >= 12) {
+            echo 'Good afternoon!';
+            }
+            elseif ($time > 17) {
+            echo 'Good evening!';
+            }
+            ?>
+            </h1>
+            <p>At D-formed, we believe in the power of creative communication.</p>
+            <p>We are a small team with skills across all forms of digital media, so your website will be based on great design, efficient code, and expert knowledge. And you will always know who you’re dealing with. (Mainly it will be our project manager, Greg.)</p> 
+            <p>Whether you are an established business looking for an effective online presence, or you’re just setting up on your own, we can produce beautiful, efficient media and strategies to help you reach your audience, create customers and make it happen.</p>
+            <p>So give us a <a href="/contact">call</a>.</p>
+        </div>
 
-    <div class="span8">
-        <iframe src="http://player.vimeo.com/video/42827732?color=238149"></iframe>
+        <div class="span8">
+            <iframe src="http://player.vimeo.com/video/42827732?color=238149"></iframe>
+        </div>
     </div>
-</div>
-
-<div class="row">
-    <div class="span4">
-        <?php $this->load->view('boxes/aboutus'); ?>
-    </div>
-    <div class="span4">
-        <?php $this->load->view('boxes/services'); ?>
-    </div>
-    <div class="span4">
-        <?php $this->load->view('boxes/testimonials'); ?>
+    <div class="row-fluid">
+        <div class="span4">
+            <?php $this->load->view('boxes/aboutus'); ?>
+        </div>
+        <div class="span4">
+            <?php $this->load->view('boxes/services'); ?>
+        </div>
+        <div class="span4">
+            <?php $this->load->view('boxes/testimonials'); ?>
+        </div>
     </div>
 </div>
