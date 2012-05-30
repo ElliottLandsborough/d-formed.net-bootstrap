@@ -7,7 +7,7 @@
   <footer>
     <div class="row">
       <div class="span8">
-        <p class="alignleft">All content copyright &copy; 2012 D-Formed Digital.<span class="smallhide">All rights reserved</span></p>
+        <p class="alignleft">All content copyright &copy; 2012 D-Formed Digital.<span class="smallhide"> All rights reserved</span></p>
       </div>
       <div class="span4">
         <p class="alignright"><a href="?p=terms">Terms &amp; Conditions</a></p>

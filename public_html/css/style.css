@@ -63,6 +63,7 @@ div.services.smallbox {padding-bottom:10px;}
 
 div.bigbox {background-repeat:none;background-position:center center;}
 div.bigbox.circle {background-image:url('../img/about-graphic-large.png');width:352px;height:520px;}
+div.bigbox.gear {background-image:url('../img/services-graphic-large.png');width:352px;height:520px;}
 
 /* GENERAL CONTENT */
 div.content ul {margin-left: 45px;}
@@ -77,17 +78,26 @@ div.aboutwrap {min-height:740px;margin-top:0px;}
 /* SERVICES */
 div.services.span8 {background-color:#161616;padding-right:10px;}
 div.serviceswrap {min-height:740px;margin-top:0px;}
-#services-graphic-large {width:352px; height:520px; background-image:url('../img/services-graphic-large.png'); background-repeat:no-repeat;}
-#services-list {width:235px; float:left;}
-#services-list ul {margin:0px; padding:0px;}
-#services-list ul li {list-style:none; height:30px;}
+#services-list ul {margin:0px; padding:0px; margin-left:0px;}
+#services-list ul li {list-style:none; height:30px;margin-bottom:10px;}
 #services-list ul li h2 {font-size:17px; line-height:30px;}
 #services-list ul li img {float:left; padding-right:20px;}
-#switcher-panel {width:460px; float:right; color:#fff; font-size:14px; line-height:20px;}
-#switcher-panel p {color:#fff; font-size:14px; line-height:20px;}
+#switcher-panel {color:#fff; font-size:14px; line-height:20px;}
+#switcher-panel p {color:#fff; font-size:14px; line-height:20px; margin:10px 10px 10px 0px;}
 #switcher-panel h2 {color:#58a128;}
 #switcher-panel h4 {color:#58a128;}
 .switcher-content {display: none;}
+div#services-list ul li a {display:block;padding-left:60px;height:60px;background-repeat:no-repeat;}
+div#services-list ul li a#consultation {background-image:url('../img/services/consultant-icon.png');}
+div#services-list ul li a#design {background-image:url('../img/services/design-icon.png');}
+div#services-list ul li a#development {background-image:url('../img/services/development-icon.png');}
+div#services-list ul li a#branding {background-image:url('../img/services/branding-icon.png');}
+div#services-list ul li a#ecommerce {background-image:url('../img/services/ecommerce-icon.png');}
+div#services-list ul li a#cms {background-image:url('../img/services/cms-icon.png');}
+div#services-list ul li a#social {background-image:url('../img/services/social-icon.png');}
+div#services-list ul li a#seo {background-image:url('../img/services/seo-icon.png');}
+div#services-list ul li a#hosting {background-image:url('../img/services/hosting-icon.png');}
+div#services-list ul li a#associates {background-image:url('../img/services/associates-icon.png');}
 
 /* FOOTER */
 footer {font-size:12px;background-image:url('../img/footer.trans.png');}
@@ -111,6 +121,17 @@ footer p.alignright {padding-right:20px;}
 	div.aboutright div.testimonials blockquote p {padding-left:0px; padding-right:20px;}
 	div.aboutright div.smallbox {margin-top:0px; min-height:0px;padding-bottom:20px;}
 	div.aboutwrap {min-height:0px;margin-bottom:30px;}
+	div#services-list ul li a {padding-left:0px;height:60px;}
+	div#services-list ul li a#consultation,
+	div#services-list ul li a#design,
+	div#services-list ul li a#development,
+	div#services-list ul li a#branding,
+	div#services-list ul li a#ecommerce,
+	div#services-list ul li a#cms,
+	div#services-list ul li a#social,
+	div#services-list ul li a#seo,
+	div#services-list ul li a#hosting,
+	div#services-list ul li a#associates {background-image:none;}
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -138,6 +159,22 @@ footer p.alignright {padding-right:20px;}
 	div.home p {padding-right:20px;}
 	p.bottom {padding-bottom:20px;}
 	div.about h1 {padding-top:20px;}
+	div.services h1 {padding-top:20px;}
+	div.services div.switcher-content h2 {padding-left:20px;}
+	div.services div#switcher-panel h2 {padding-left:20px;}
+	div.services p {padding-left:20px;}
+	div.services {margin-bottom:30px;}
+	div#services-list ul li a {display:block;padding-left:60px;height:60px;background-repeat:no-repeat;}
+	div#services-list ul li a#consultation {background-image:url('../img/services/consultant-icon.png');}
+	div#services-list ul li a#design {background-image:url('../img/services/design-icon.png');}
+	div#services-list ul li a#development {background-image:url('../img/services/development-icon.png');}
+	div#services-list ul li a#branding {background-image:url('../img/services/branding-icon.png');}
+	div#services-list ul li a#ecommerce {background-image:url('../img/services/ecommerce-icon.png');}
+	div#services-list ul li a#cms {background-image:url('../img/services/cms-icon.png');}
+	div#services-list ul li a#social {background-image:url('../img/services/social-icon.png');}
+	div#services-list ul li a#seo {background-image:url('../img/services/seo-icon.png');}
+	div#services-list ul li a#hosting {background-image:url('../img/services/hosting-icon.png');}
+	div#services-list ul li a#associates {background-image:url('../img/services/associates-icon.png');}
 }
 
 /* Landscape phones and down */
