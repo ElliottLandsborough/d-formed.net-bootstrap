@@ -8,10 +8,10 @@
             if ($time < 12) {
             echo 'Good morning!';
             }
-            elseif ($time >= 12) {
+            else if ($time >= 12 && $time <= 17) {
             echo 'Good afternoon!';
             }
-            elseif ($time > 17) {
+            else if ($time > 17) {
             echo 'Good evening!';
             }
             ?>

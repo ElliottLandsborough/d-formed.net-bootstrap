@@ -52,7 +52,7 @@ div.smallbox {background-color:#161616;margin-top:30px;min-height:200px;}
 div.smallbox h3 {padding:16px 0px 20px 20px;font-size:14px;text-transform:uppercase;}
 div.smallbox a:hover {text-decoration:none;}
 div.smallbox h3 a:hover {color:#75d63b;}
-div.smallbox p a,div.smallbox blockquote p {display:block;padding-left:120px; padding-right:34px; padding-bottom:0px; margin-bottom:0px;background-repeat:no-repeat;background-position:20px 0px;}
+div.smallbox p a,div.smallbox blockquote p {display:block;padding-left:120px; padding-right:34px; padding-bottom:0px; min-height:100px; margin-bottom:0px;background-repeat:no-repeat;background-position:20px 0px;}
 div.smallbox blockquote cite {display:none;}
 div.about.smallbox p a {background-image:url('../img/about-gfc.png');}
 div.services.smallbox p a {background-image:url('../img/services-gfc.png');}
@@ -61,11 +61,33 @@ div.testimonials.smallbox {padding-bottom:10px;}
 div.about.smallbox {padding-bottom:10px;}
 div.services.smallbox {padding-bottom:10px;}
 
+div.bigbox {background-repeat:none;background-position:center center;}
+div.bigbox.circle {background-image:url('../img/about-graphic-large.png');width:352px;height:520px;}
 
-/* HOME */
+/* GENERAL CONTENT */
+div.content ul {margin-left: 45px;}
+div.content ul li {list-style-type: disc;list-style-image: url("../img/list.png");list-style-position: outside;margin-left: 20px;color: #ffffff;padding-bottom: 10px;}
+div.content h1 {margin:20px 0px 30px 20px;}
+div.content p {margin:0px 0px 25px 20px;}
 div.home {background-color:#161616;}
-div.home h1 {margin:20px 0px 30px 20px;}
-div.home p {margin:0px 0px 25px 20px;}
+div.about div.span8 {background-color:#161616;padding-right:10px;}
+div.about h1 {padding:0px 0px 0px 0px;}
+div.aboutwrap {min-height:740px;margin-top:0px;}
+
+/* SERVICES */
+div.services.span8 {background-color:#161616;padding-right:10px;}
+div.serviceswrap {min-height:740px;margin-top:0px;}
+#services-graphic-large {width:352px; height:520px; background-image:url('../img/services-graphic-large.png'); background-repeat:no-repeat;}
+#services-list {width:235px; float:left;}
+#services-list ul {margin:0px; padding:0px;}
+#services-list ul li {list-style:none; height:30px;}
+#services-list ul li h2 {font-size:17px; line-height:30px;}
+#services-list ul li img {float:left; padding-right:20px;}
+#switcher-panel {width:460px; float:right; color:#fff; font-size:14px; line-height:20px;}
+#switcher-panel p {color:#fff; font-size:14px; line-height:20px;}
+#switcher-panel h2 {color:#58a128;}
+#switcher-panel h4 {color:#58a128;}
+.switcher-content {display: none;}
 
 /* FOOTER */
 footer {font-size:12px;background-image:url('../img/footer.trans.png');}
@@ -79,11 +101,16 @@ footer p.alignright {padding-right:20px;}
 	div.contact-info {left:298px;}
 	header ul {top:128px;left:60px;}
 	header ul li a {padding:2px 7px 0px 7px;height:31px;}
-	/*div.smallbox {min-height:220px;}*/
-	div.smallbox p a,div.smallbox blockquote p {padding-left:20px; padding-right:20px;}
+	div.smallbox p a,div.smallbox blockquote p {padding-left:20px; padding-right:20px; min-height:0px;}
 	div.smallbox blockquote p {background-image:none;}
 	div.about.smallbox p a {background-image:none;}
 	div.services.smallbox p a {background-image:none;}
+
+	div.bigbox {display:none;}
+	div.aboutright div.smallbox {margin-top:0px;}
+	div.aboutright div.testimonials blockquote p {padding-left:0px; padding-right:20px;}
+	div.aboutright div.smallbox {margin-top:0px; min-height:0px;padding-bottom:20px;}
+	div.aboutwrap {min-height:0px;margin-bottom:30px;}
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -94,11 +121,6 @@ footer p.alignright {padding-right:20px;}
 	header ul {top:14px;left:0px;height:200px;width:220px;}
 	header ul li {float:none;margin:8px;}
 	header ul li a {padding:2px;height:15px;margin:2px;}
-	/*div.smallbox h3 {padding-bottom:10px;}
-	div.smallbox p a,div.smallbox blockquote p {padding-left:20px; padding-right:20px;}
-	div.smallbox blockquote p {background-image:none;}
-	div.about.smallbox p a {background-image:none;}
-	div.services.smallbox p a {background-image:none;}*/
 	div.smallbox {min-height:240px;}
 }
 
@@ -114,6 +136,8 @@ footer p.alignright {padding-right:20px;}
 	div.smallbox {min-height:70px;}
 	div.smallbox h3 {padding-bottom:10px;}
 	div.home p {padding-right:20px;}
+	p.bottom {padding-bottom:20px;}
+	div.about h1 {padding-top:20px;}
 }
 
 /* Landscape phones and down */
@@ -126,7 +150,11 @@ footer p.alignright {padding-right:20px;}
 	.smallhide {display:none;}
 }
 
+/* super small just in case */
 @media only screen and (max-width: 300px) {
-
 	iframe {width:180px;height:123px;}
+	div.contact-info {height:118px;}
+	p.social a.facebook {position:static;margin-top:4px;}
+	p.social a.twitter {position:static;margin-top:4px; margin-left:1px;}
+	footer p.alignright {text-align:left;padding-right:20px;}
 }
