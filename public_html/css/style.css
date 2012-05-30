@@ -1,11 +1,23 @@
 /*body {background-color:#161616;}*/
+html, body {height: 100%;}
+.wrapper {min-height:100%;height: auto !important;height:100%;margin: 0 auto -36px;}
+.footer, .push {height:36px;}
 .light-green {color:#75d63b;}
 .dark-green {color:#58a128;}
 .turquoise {color:#238149;}
 .blue { color:#23827a;}
-body {color:#ffffff;font-family: sans-serif;}
+.border {border:1px solid #ffffff;}
+.alignleft {text-align:left;}
+.alignright {text-align:right;}
+body {color:#ffffff;font-family:sans-serif;}
+body,p {font-size:1em; line-height:1.4em;}
 a {color:#ffffff;}
 a:hover {text-decoration:underline;color:inherit;}
+blockquote {margin:0px;padding:0px;border:none;display:none;}
+h1 {font-size:36px;}
+iframe {border:0px;width:705px;height:480px;display:block;margin:20px 0px 0px auto;position:relative;right:20px;}
+div.container.content {margin-bottom:10px;}
+
 
 /* HEADER */
 header {background-color:#161616;height:160px;overflow:hidden;margin-bottom:20px;}
@@ -35,11 +47,31 @@ header ul li.about a:hover,header ul li.contact a:hover {background-color:#23814
 header ul li.services a:hover,header ul li.news a:hover {background-color:#58a128;}
 header ul li.projects a:hover {background-color:#75d63b;}
 
-/* HOME */
-div.container.home {background-color:#161616;}
+/* BOXES */
+div.smallbox {background-color:#161616;margin-top:30px;min-height:200px;}
+div.smallbox h3 {padding:16px 0px 20px 20px;font-size:14px;text-transform:uppercase;}
+div.smallbox a:hover {text-decoration:none;}
+div.smallbox h3 a:hover {color:#75d63b;}
+div.smallbox p a,div.smallbox blockquote p {display:block;padding-left:120px; padding-right:34px; padding-bottom:0px; margin-bottom:0px;background-repeat:no-repeat;background-position:20px 0px;}
+div.smallbox blockquote cite {display:none;}
+div.about.smallbox p a {background-image:url('../img/about-gfc.png');}
+div.services.smallbox p a {background-image:url('../img/services-gfc.png');}
+div.smallbox blockquote p {background-image:url('../img/quotes-gfc.png');}
+div.testimonials.smallbox {padding-bottom:10px;}
+div.about.smallbox {padding-bottom:10px;}
+div.services.smallbox {padding-bottom:10px;}
 
-iframe {border:0px;}
-iframe {width:705px;height:480px;}
+
+/* HOME */
+div.home {background-color:#161616;}
+div.home h1 {margin:20px 0px 30px 20px;}
+div.home p {margin:0px 0px 25px 20px;}
+
+/* FOOTER */
+footer {font-size:12px;background-image:url('../img/footer.trans.png');}
+footer p {margin:0px; padding:0px;line-height:36px;}
+footer p.alignleft {padding-left:20px;}
+footer p.alignright {padding-right:20px;}
 
 /* Large desktop */
 @media only screen and (max-width: 1200px) {
@@ -47,6 +79,11 @@ iframe {width:705px;height:480px;}
 	div.contact-info {left:298px;}
 	header ul {top:128px;left:60px;}
 	header ul li a {padding:2px 7px 0px 7px;height:31px;}
+	/*div.smallbox {min-height:220px;}*/
+	div.smallbox p a,div.smallbox blockquote p {padding-left:20px; padding-right:20px;}
+	div.smallbox blockquote p {background-image:none;}
+	div.about.smallbox p a {background-image:none;}
+	div.services.smallbox p a {background-image:none;}
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -57,20 +94,39 @@ iframe {width:705px;height:480px;}
 	header ul {top:14px;left:0px;height:200px;width:220px;}
 	header ul li {float:none;margin:8px;}
 	header ul li a {padding:2px;height:15px;margin:2px;}
+	/*div.smallbox h3 {padding-bottom:10px;}
+	div.smallbox p a,div.smallbox blockquote p {padding-left:20px; padding-right:20px;}
+	div.smallbox blockquote p {background-image:none;}
+	div.about.smallbox p a {background-image:none;}
+	div.services.smallbox p a {background-image:none;}*/
+	div.smallbox {min-height:240px;}
 }
 
 /* Landscape phone to portrait tablet */
 @media only screen and (max-width: 767px) {
 	header div.logo p a {left:30px;top:20px;}
-	iframe {width:450px;height:307px;}
+	iframe {width:400px;height:273px;margin:0px 0px 10px 40px;}
 	div.contact-info {position:relative;left:30px;}
 	header {height:auto;}
 	header ul {position:relative;height:140px;left:0px;}
 	header ul li {margin-left:0px;}
+	footer p.alignright {text-align:left;padding-left:20px;}
+	div.smallbox {min-height:70px;}
+	div.smallbox h3 {padding-bottom:10px;}
+	div.home p {padding-right:20px;}
 }
 
 /* Landscape phones and down */
 @media only screen and (max-width: 480px) {
 	header div.logo p a {background-image:url('../img/logosmall.png');width:215px;height:80px;}
-	iframe {width:300px;height:205px;}
+	iframe {width:290px;height:198px;}
+	div.smallbox h3 {padding-bottom:10px;}
+	div.smallbox {height:auto;min-height:0px;}
+	div.smallbox {margin-bottom:10px;}
+	.smallhide {display:none;}
+}
+
+@media only screen and (max-width: 300px) {
+
+	iframe {width:180px;height:123px;}
 }

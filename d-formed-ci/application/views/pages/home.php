@@ -1,8 +1,8 @@
-<div class="container home">
-    <div class="row-fluid">
+<div class="container content">
+    <div class="row-fluid home">
         <div class="span4">
             <h1 class="hidden">Home</h1>
-            <h1>
+            <h1 class="blue">
             <?php
             $time = date("G");
             if ($time < 12) {
@@ -21,7 +21,6 @@
             <p>Whether you are an established business looking for an effective online presence, or you’re just setting up on your own, we can produce beautiful, efficient media and strategies to help you reach your audience, create customers and make it happen.</p>
             <p>So give us a <a href="/contact">call</a>.</p>
         </div>
-
         <div class="span8">
             <iframe src="http://player.vimeo.com/video/42827732?color=238149"></iframe>
         </div>

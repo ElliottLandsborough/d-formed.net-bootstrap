@@ -1,14 +1,21 @@
+<div class="push"></div>
+</div><!-- close footer wrapper -->
+
+<div class="footer">
+
 <div class="container">
   <footer>
     <div class="row">
-      <div class="span6">
-        <p>All content copyright &copy; 2012 D-Formed Digital. All rights reserved</p>
+      <div class="span8">
+        <p class="alignleft">All content copyright &copy; 2012 D-Formed Digital.<span class="smallhide">All rights reserved</span></p>
       </div>
-      <div class="span6">
-        <p><a href="?p=terms">Terms &amp; Conditions</a></p>
+      <div class="span4">
+        <p class="alignright"><a href="?p=terms">Terms &amp; Conditions</a></p>
       </div>
     </div>
   </footer>
+</div>
+
 </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
