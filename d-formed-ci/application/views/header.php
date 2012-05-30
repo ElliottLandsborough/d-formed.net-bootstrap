@@ -37,6 +37,8 @@
 
 <body>
 
+<div class="wrapper"><!-- open footer wrapper -->
+
 <header>
   <div class="container">
     <div class="row-fluid">
