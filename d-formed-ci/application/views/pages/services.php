@@ -44,14 +44,13 @@
                                 <li>other printed publications</li>
                                 </ul>
                                 <p>In addition to this, we can develop your logo and visual identity, as part of developing your website – so your business will have an integrated public presence. See our Branding section (left).</p>
-                                <p>If you are interested in hiring us for graphic design work, get in touch with <a href="?p=contact">Greg</a>.
-                                </p>
+                                <p>If you are interested in hiring us for graphic design work, get in touch with <a href="/contact">Greg</a>.</p>
                             </div>
                             <div id="development-content" class="switcher-content">
                                 <h2>Development</h2>
                                 <p>We can create technical specifications for, design, and then develop web applications for any purpose.</p>
                                 <p>That is, we can make your website work, no matter what you need it to do. Basically, we do coding for fun.</p>
-                                <p><p>This is where we could go on and on all about the technical background to what we can offer you – but if you understood all the jargon, you’d probably know how to do it yourself. We recognize that you’re coming to us so we can know all this stuff and you can relax in the knowledge that you’re getting an awesome website. </p>
+                                <p>This is where we could go on and on all about the technical background to what we can offer you – but if you understood all the jargon, you’d probably know how to do it yourself. We recognize that you’re coming to us so we can know all this stuff and you can relax in the knowledge that you’re getting an awesome website.</p>
                                 <p>Just to show what we do know our stuff, here is some of it:</p>
                                 <h4>PHP</h4>
                                 <ul>
@@ -122,7 +121,7 @@
                             <div id="associates-content" class="switcher-content">
                                 <h2>Associates</h2>
                                 <p>We have a network of professional associates who can provide services in addition to what we an deliver in the team. Let us know if you need copywriting, in-depth SEO, or photography for your project. </p>
-                                <p>All our associates are listed in our <a href="?p=contact">contact</a> page.</p>
+                                <p>All our associates are listed in our <a href="/contact">contact</a> page.</p>
                             </div>
                         </div>
                     </div>

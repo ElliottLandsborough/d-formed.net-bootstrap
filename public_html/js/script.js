@@ -4,7 +4,25 @@ $(document).ready(function() {
 
 $(window).load(function() {
 	$('div.testimonials.smallbox blockquote').quovolver();
+  var d = new Date();
+  var hour = d.getHours();
+  var greeting = welcome;
+  if (hour < 12)
+  {
+    greeting = 'Good morning!';
+  }
+  else if (hour >=12 && hour <=17)
+  {
+    greeting = 'Good afternoon!';
+  }
+  else if (hour > 17)
+  {
+    greeting = 'Good evening!';
+  }
+  $('h1#greeting').html(greeting);
 });
+
+
 
 
 // must be at bottom - analytics code

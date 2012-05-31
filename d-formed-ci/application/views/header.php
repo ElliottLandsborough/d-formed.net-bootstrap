@@ -11,8 +11,8 @@
   <meta name="description" content="At D-formed, we believe in the power of creative communication. We’ve been offering web design and hosting for five years, and have expanded over time into a comprehensive service agency.">
   <meta name="og:title" content="D-Formed - Digital Agency" />
   <meta name="og:description" content="At D-formed, we believe in the power of creative communication. We’ve been offering web design and hosting for five years, and have expanded over time into a comprehensive service agency." />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <meta name="og:image" content="img/shareimg.jpg" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <meta name="og:image" content="/img/shareimg.jpg" />
   <meta name="viewport" content="width=device-width">
   <link type="text/css" rel="stylesheet" href="/min/b=css&amp;f=bootstrap.min.css,bootstrap-responsive.min.css,style.css,lightbox.css" />
   <?php
@@ -41,7 +41,7 @@
     <div class="row-fluid">
       <div class="span5">
         <div class="logo">
-          <p><a href="http://www.d-formed.net"><span>d-formed.net</span></a></p>
+          <p><a href="http://www.d-formed.net/home"><span>d-formed.net</span></a></p>
         </div>
       </div>
       <div class="span7">

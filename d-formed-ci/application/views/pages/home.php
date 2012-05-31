@@ -2,7 +2,7 @@
     <div class="row-fluid home">
         <div class="span4">
             <h1 class="hidden">Home</h1>
-            <h1 class="blue">
+            <h1 id="greeting"class="blue">
             <?php
             $time = date("G");
             if ($time < 12) {

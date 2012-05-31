@@ -63,7 +63,7 @@ else if (isset($post))
 ';
     echo '                  <div class="post-date"><span class="day">'.$date['day'].'</span><br /><span class="month">'.date("M",mktime(0,0,0,$date['month'],1,2003)).'</span><br /><span class="year">'.$date['year'].'</span></div>
 ';
-    echo '                  <p class="post-title"><a href="?p=post&amp;q='.$post->ID.'">'.$post->post_title.'</a></p>
+    echo '                  <p class="post-title">'.$post->post_title.'</p>
 ';
     echo '                  <p class="post-content">'.$post->post_content.'</p>
 ';
