@@ -14,10 +14,10 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <!--<meta name="og:image" content="img/shareimg.jpg" />-->
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/lightbox.css">
   <?php
   $bg = array('bg.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg' );
   $i = rand(0, count($bg)-1);
@@ -26,7 +26,7 @@
   <style type="text/css">
   <!--
   body{
-  background:url('img/<?php echo $selectedBg; ?>') no-repeat;
+  background:url('/img/<?php echo $selectedBg; ?>') no-repeat;
   background-color:#111111;
   background-position:center top;
   background-attachment:fixed;
