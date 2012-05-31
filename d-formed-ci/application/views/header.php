@@ -5,19 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>d-formed.net</title>
   <meta name="description" content="At D-formed, we believe in the power of creative communication. We’ve been offering web design and hosting for five years, and have expanded over time into a comprehensive service agency.">
-  <!--<meta name="og:title" content="D-Formed - Digital Agency" />-->
-  <!--<meta name="og:description" content="At D-formed, we believe in the power of creative communication. We’ve been offering web design and hosting for five years, and have expanded over time into a comprehensive service agency." />-->
+  <meta name="og:title" content="D-Formed - Digital Agency" />
+  <meta name="og:description" content="At D-formed, we believe in the power of creative communication. We’ve been offering web design and hosting for five years, and have expanded over time into a comprehensive service agency." />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <!--<meta name="og:image" content="img/shareimg.jpg" />-->
+  <meta name="og:image" content="img/shareimg.jpg" />
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="/min/f=css/bootstrap.min.css">
-  <link rel="stylesheet" href="/min/f=css/bootstrap-responsive.min.css">
-  <link rel="stylesheet" href="/min/f=css/style.css">
-  <link rel="stylesheet" href="/min/f=css/lightbox.css">
+  <link type="text/css" rel="stylesheet" href="/min/b=css&amp;f=bootstrap.min.css,bootstrap-responsive.min.css,style.css,lightbox.css" />
   <?php
   $bg = array('bg.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg' );
   $i = rand(0, count($bg)-1);
