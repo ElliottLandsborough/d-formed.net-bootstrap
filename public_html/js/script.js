@@ -3,5 +3,5 @@ $(document).ready(function() {
 });
 
 $(window).load(function() {
-	$('blockquote').quovolver();
+	$('div.testimonials.smallbox blockquote').quovolver();
 });
