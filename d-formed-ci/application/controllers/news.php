@@ -6,7 +6,7 @@ class News extends CI_Controller {
 	{
 		$args = array(
 			'numberposts'     => 99,
-			'category'        => 3,
+			'category'        => 4,
 			'post_status'     => 'publish'
 		);
 		$input['posts'] = get_posts($args);

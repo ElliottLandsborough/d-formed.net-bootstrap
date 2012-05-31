@@ -6,7 +6,7 @@ class Projects extends CI_Controller {
 	{
 		$args = array(
 			'numberposts'     => 99,
-			'category'        => 4,
+			'category'        => 3,
 			'post_status'     => 'publish'
 		);
 		$input['posts'] = get_posts($args);

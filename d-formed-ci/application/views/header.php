@@ -14,10 +14,10 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <!--<meta name="og:image" content="img/shareimg.jpg" />-->
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/lightbox.css">
+  <link rel="stylesheet" href="/min/f=css/bootstrap.min.css">
+  <link rel="stylesheet" href="/min/f=css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="/min/f=css/style.css">
+  <link rel="stylesheet" href="/min/f=css/lightbox.css">
   <?php
   $bg = array('bg.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg' );
   $i = rand(0, count($bg)-1);
@@ -61,8 +61,8 @@
   	     <li class="about"><a href="/about"><span class="hidden">About</span></a></li>
   	     <li class="services"><a href="/services"><span class="hidden">Services</span></a></li>
   	     <li class="projects"><a href="/projects"><span class="hidden">Projects</span></a></li>
-  	     <li class="news"><a href="/news"><span class="hidden">News</a></span></li>
-  	     <li class="contact"><a href="/contact"><span class="hidden">Contact</a></span></li>
+  	     <li class="news"><a href="/news"><span class="hidden">News</span></a></li>
+  	     <li class="contact"><a href="/contact"><span class="hidden">Contact</span></a></li>
         </ul>
       </div>
     </div>
